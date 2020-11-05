@@ -1,16 +1,16 @@
 # parsing_json
-모두의 말뭉치 파싱 코드 예시
+#모두의 말뭉치 파싱 코드 예시
 
 
 
 
-데이터는 다음 링크에서 받을 수 있습니다.
+- 데이터는 다음 링크에서 받을 수 있습니다.
 
 https://corpus.korean.go.kr/
 
 
 
-메신저 말뭉치를 다운 받아서 다음 결과 파일과 같이 파싱하는 코드입니다.
+- 메신저 말뭉치를 다운 받아서 다음 결과 파일과 같이 파싱하는 코드입니다.
 
 
 ```
@@ -33,6 +33,6 @@ for fname in fn:
 pd.DataFrame(form).to_csv("messanger_result.csv")
 
 ```
-
+![image](./result.png)
 
 
