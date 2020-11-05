@@ -13,7 +13,7 @@ https://corpus.korean.go.kr/
 메신저 말뭉치를 다운 받아서 다음 결과 파일과 같이 파싱하는 코드입니다.
 
 
-
+```
 
 import glob
 import json
@@ -31,6 +31,8 @@ for fname in fn:
 #pd.DataFrame(form).to_excel("messanger_result.xlsx")
 
 pd.DataFrame(form).to_csv("messanger_result.csv")
+
+```
 
 
 
