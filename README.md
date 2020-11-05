@@ -4,13 +4,14 @@
 
 
 
-- 데이터는 다음 링크에서 받을 수 있습니다.
+- 모두의 말뭉치 다운로드 링크
 
 https://corpus.korean.go.kr/
 
 
 
-- 메신저 말뭉치를 다운 받아서 다음 결과 파일과 같이 파싱하는 코드입니다.
+- 승인후에 다운로드 가능, 
+- 메신저 말뭉치를 다운 받아서 파싱하는 코드.
 
 
 ```
@@ -33,6 +34,8 @@ for fname in fn:
 pd.DataFrame(form).to_csv("messanger_result.csv")
 
 ```
+
+- 결과 파일 이미지
 ![image](./result.png)
 
 
