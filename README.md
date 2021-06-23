@@ -33,6 +33,35 @@ pd.DataFrame(form).to_csv("messanger_result.csv")
 
 ```
 
+```
+
+                    {
+                        "id": "2",
+                        "age": "20대",
+                        "occupation": "사무 종사자",
+                        "sex": "여성",
+                        "birthplace": "경기",
+                        "pricipal_residence": "경기",
+                        "current_residence": "경기",
+                        "device": "PC",
+                        "keyboard": "2벌식(쿼티)"
+                    }
+                ],
+                "setting": {
+                    "relation": "기타 : 온라인 커뮤니티",
+                    "intimacy": 3,
+                    "contact_frequency": "주 3회 이상"
+                }
+            },
+            "utterance": [
+                {
+                    "id": "MDRW1900000002.1.1.1",
+                    "form": "누나 모해??",
+                    "original_form": "누나 모해??",
+                    "speaker_id": "1",
+                    "time": "20191128 15:04"
+```
+
 - 결과 파일 이미지
 ![image](./result.png)
 
