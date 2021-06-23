@@ -34,7 +34,39 @@ pd.DataFrame(form).to_csv("messanger_result.csv")
 ```
 
 ```
-
+ "id": "MDRW1900000002",
+    "metadata": {
+        "title": "국립국어원 메신저 말뭉치 MDRW1900000002",
+        "creator": "국립국어원",
+        "distributor": "국립국어원",
+        "year": "2019",
+        "category": "메신저 대화 > 2인 대화",
+        "annotation_level": [
+            "원시"
+        ],
+        "sampling": "참여자 모집 후 대화 수집"
+    },
+    "document": [
+        {
+            "id": "MDRW1900000002.1",
+            "metadata": {
+                "title": "메신저 대화",
+                "author": "개인 대화 참여자",
+                "publisher": "카카오톡",
+                "date": "20191219",
+                "topic": "여행 (여행지, 계획 등)",
+                "speaker": [
+                    {
+                        "id": "1",
+                        "age": "20대",
+                        "occupation": "군인",
+                        "sex": "남성",
+                        "birthplace": "경기",
+                        "pricipal_residence": "경기",
+                        "current_residence": "경기",
+                        "device": "스마트폰",
+                        "keyboard": "2벌식(쿼티)"
+                    },
                     {
                         "id": "2",
                         "age": "20대",
@@ -60,6 +92,7 @@ pd.DataFrame(form).to_csv("messanger_result.csv")
                     "original_form": "누나 모해??",
                     "speaker_id": "1",
                     "time": "20191128 15:04"
+                },
 ```
 
 - 결과 파일 이미지
